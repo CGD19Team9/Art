@@ -45,6 +45,27 @@
         <type>noise</type>
     </layer>
     <layer>
+        <destBlendFactor>one</destBlendFactor>
+        <ditherAmount>0.005</ditherAmount>
+        <gain>0.5</gain>
+        <hdrMultiplier>1</hdrMultiplier>
+        <hdrPower>1</hdrPower>
+        <innerColor>0.333333 1 1 1</innerColor>
+        <lacunarity>2</lacunarity>
+        <name>Purplebois</name>
+        <noiseType>fbm</noiseType>
+        <octaves>10</octaves>
+        <offset>1</offset>
+        <outerColor>0 0 0 1</outerColor>
+        <powerAmount>1</powerAmount>
+        <previewTextureSize>1024</previewTextureSize>
+        <scale>1.3</scale>
+        <seed>505050505</seed>
+        <shelfAmount>0.5</shelfAmount>
+        <sourceBlendFactor>one</sourceBlendFactor>
+        <type>noise</type>
+    </layer>
+    <layer>
         <dataFile></dataFile>
         <destBlendFactor>one</destBlendFactor>
         <farColor>1 0.32549 0.32549 1</farColor>
@@ -151,7 +172,7 @@
         <offset>1</offset>
         <outerColor>0 0 0 1</outerColor>
         <powerAmount>0.16</powerAmount>
-        <previewTextureSize>512</previewTextureSize>
+        <previewTextureSize>1024</previewTextureSize>
         <scale>1</scale>
         <seed>12345</seed>
         <shelfAmount>-0.03</shelfAmount>
